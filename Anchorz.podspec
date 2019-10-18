@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+A tiny library with UIKit constraints helpers
                        DESC
 
   s.homepage         = 'https://github.com/michaelversus/Anchorz'
