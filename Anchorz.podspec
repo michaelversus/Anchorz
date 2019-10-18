@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Anchorz'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Anchorz.'
+  s.summary          = 'A tiny library with UIKit constraints helpers'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Michalis Karagiorgos/Anchorz'
+  s.homepage         = 'https://github.com/michaelversus/Anchorz'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michalis Karagiorgos' => 'mk@mikdev.eu' }
-  s.source           = { :git => 'https://github.com/Michalis Karagiorgos/Anchorz.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/michaelversus/Anchorz.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Anchorz/**/*.{h,m,swift}'
+  s.source_files = 'Classes/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'Anchorz' => ['Anchorz/Assets/*.png']
