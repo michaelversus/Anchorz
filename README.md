@@ -22,6 +22,32 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'Anchorz'
 ```
+## Usage
+```swift
+import UIKit
+import Anchorz
+
+class ViewController: UIViewController {
+
+    let redView: UIView = {
+        let view = UIView()
+        view.backgroundColor = .red
+        return view
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.addSubview(redView)
+        redView.constraint(
+            .top(view.topAnchor, constant: 10),
+            .bottom(view.bottomAnchor, constant: 10),
+            .leading(view.leadingAnchor, constant: 10),
+            .trailing(view.trailingAnchor, constant: 10)
+        )
+    }
+}
+```
 
 ## Author
 
