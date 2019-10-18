@@ -1,0 +1,22 @@
+{
+  "name": "Anchorz",
+  "version": "0.1.0",
+  "summary": "A short description of Anchorz.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Michalis Karagiorgos/Anchorz",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Michalis Karagiorgos": "mk@mikdev.eu"
+  },
+  "source": {
+    "git": "https://github.com/Michalis Karagiorgos/Anchorz.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Anchorz/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Anchorz {
+  umbrella header "Anchorz-umbrella.h"
+
+  export *
+  module * { export * }
+}

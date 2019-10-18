@@ -1,0 +1,16 @@
+PODS:
+  - Anchorz (0.1.0)
+
+DEPENDENCIES:
+  - Anchorz (from `../`)
+
+EXTERNAL SOURCES:
+  Anchorz:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Anchorz: d2eee6ecb05a28c1fea57fc1ad6ebf332d8f5058
+
+PODFILE CHECKSUM: e0c499c906069104fc33dfadbd8d4592d3b86131
+
+COCOAPODS: 1.8.4
