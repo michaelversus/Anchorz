@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Anchorz_Example' do
+  pod 'Anchorz', :path => '../'
+
+  target 'Anchorz_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
